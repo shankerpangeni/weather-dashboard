@@ -28,10 +28,10 @@ A responsive web application that allows users to search for current weather inf
 
 2. Install dependencies
    ````bash
-       npm install
-       npm install tailwindcss @tailwindcss/vite
-       npm install react-router-dom
+    npm install
+    npm install tailwindcss @tailwindcss/vite
+    npm install react-router-dom
 
 3. Run the Development Server
  ```bash
-    npm run dev
+npm run dev
