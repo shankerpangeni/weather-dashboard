@@ -20,7 +20,11 @@ A responsive web application that allows users to search for current weather inf
 - **API:** OpenWeatherMap API
 - **JavaScript:** ES6+
 
-## Steps to Run the Project
+##
+
+## Live Link
+- https://shankerpangeni.github.io/weather-dashboard/
+
 1. Clone the repository:
    ```bash
    git clone <https://github.com/shankerpangeni/weather-dashboard>

@@ -153,7 +153,7 @@ const Weather = () => {
               <span className="font-bold text-4xl md:text-6xl">{getTemperature()}</span>
               <button
                 onClick={toggleTemp}
-                className="px-4 py-2 text-lg md:text-2xl rounded-2xl bg-white text-black hover:bg-gray-200"
+                className="px-4 py-2 text-lg md:text-2xl rounded-2xl bg-white text-black hover:bg-gray-200 hover:cursor-pointer"
               >
                 In {isCelsius ? "Fahrenheit" : "Celsius"}
               </button>

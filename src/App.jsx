@@ -4,7 +4,7 @@ import Weather from "./Weather";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/weather-dashboard">
       <Routes>
         <Route path="/" element={<Weather />} />
       </Routes>
