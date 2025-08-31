@@ -27,9 +27,11 @@ A responsive web application that allows users to search for current weather inf
    cd <weather-dashboard>
 
 2. Install dependencies
-   ````npm install
+   ````bash
+       npm install
        npm install tailwindcss @tailwindcss/vite
        npm install react-router-dom
 
 3. Run the Development Server
-  ````npm run dev
+ ```bash
+    npm run dev
