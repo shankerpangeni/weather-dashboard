@@ -92,8 +92,8 @@ const Weather = () => {
     <div className="relative flex justify-center min-h-screen bg-[linear-gradient(135deg,#00feba,#5b548a)] p-4">
       {/* Error Alert (Top of Page) */}
       {showErrorAlert && (
-        <div className="absolute top-4 left-1/2 w-full max-w-xl md:max-w-2xl lg:max-w-3xl transform -translate-x-1/2 bg-red-500 text-white px-4 py-2 rounded-lg flex items-center justify-between gap-2 shadow-lg text-lg md:text-xl font-medium">
-          <span>{error}</span>
+        <div className="absolute top-4 left-1/2  max-w-xl md:max-w-2xl lg:max-w-3xl transform -translate-x-1/2 bg-red-500 text-white px-8 py-2 rounded-lg flex items-center justify-center-safe gap-2 shadow-lg text-lg md:text-xl font-medium">
+          <span className="">{error}</span>
           <button
             onClick={() => setShowErrorAlert(false)}
             className="text-xl font-bold cursor-pointer"
