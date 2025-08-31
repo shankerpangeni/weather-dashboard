@@ -34,4 +34,4 @@ A responsive web application that allows users to search for current weather inf
 
 3. Run the Development Server
  ```bash
-npm run dev
+  npm run dev
