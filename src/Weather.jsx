@@ -80,11 +80,11 @@ const Weather = () => {
   };
 
   const toggleTemp = () => {
-    setIsCelsius((prev) => !prev);
+     setIsCelsius((prev) => !prev);
   }; 
   
   const getTemperature = () => {
-    isCelsius ? `${tempcelcius}°C` : `${tempfarhenheit}°F`;
+    return isCelsius ? `${tempcelcius}°C` : `${tempfarhenheit}°F`;
   };
     
 
