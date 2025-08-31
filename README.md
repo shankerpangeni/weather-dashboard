@@ -25,8 +25,7 @@ A responsive web application that allows users to search for current weather inf
 ## Live Link
 - https://shankerpangeni.github.io/weather-dashboard/
 
-##
-
+## Steps To Run Project
 1. Clone the repository:
    ```bash
    git clone <https://github.com/shankerpangeni/weather-dashboard>
